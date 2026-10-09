@@ -1,0 +1,17 @@
+---
+import { currentAttrs } from '../lib/utils';
+
+interface Props {
+  href: string;
+  label: string;
+}
+
+const { href, label } = Astro.props;
+---
+
+<a data-wf--secondary-button--variant="base" data-w-id="6bf97d0e-68c5-b997-294f-9d0257e35a4a" href={href} {...currentAttrs(href, Astro.url.pathname, 'secondary-button w-inline-block')}>
+  <div class="button-content-block">
+    <div class="button-text is-1">{label}</div>
+    <div class="button-text is-2">{label}</div>
+  </div>
+</a>

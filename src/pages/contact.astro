@@ -1,0 +1,47 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Cta from '../components/Cta.astro';
+import FormHandler from '../components/FormHandler.astro';
+import config from '../config/config.json';
+
+// Endpoint of your form service (Formspree, Basin, Getform, ...). See README → Forms.
+const contactAction = config.forms.contactAction;
+---
+
+<BaseLayout pageId="6ac8861e88e22add894545bc" title="Contact">
+  <section class="contact-section">
+    <div class="section-glow">
+      <div class="primary-glow"></div>
+    </div>
+    <div class="w-layout-blockcontainer main-container width-extra-small w-container">
+      <div class="contact-content-block">
+        <div class="section-header-block flex-verticle-center">
+          <div class="header-block width-520px">
+            <h1 class="display-header"> We’d love to hear from you</h1>
+          </div>
+          <div data-w-id="36a78a87-d0d0-6707-fe78-fe7d0a170646" style="-webkit-transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="summery-block top-20px width-470px">
+            <p class="body-text-default opacity-70">Have questions about AI image generation, pricing, or integrations? We’d love to hear from you.</p>
+          </div>
+        </div>
+        <div data-w-id="36a78a87-d0d0-6707-fe78-fe7d0a170649" style="-webkit-transform:translate3d(0, 5%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 5%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 5%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 5%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="contact-form-block w-form">
+          <form id="email-form" name="email-form" data-name="Email Form" method="post" action={contactAction || undefined} class="contact-form" data-wf-page-id="6ac8861e88e22add894545bc" data-wf-element-id="36a78a87-d0d0-6707-fe78-fe7d0a17064a">
+            <div class="contact-form-content">
+              <div class="contact-text-field-block"><label for="name" class="text-label">Your name</label><input class="text-field w-input" maxlength="256" name="name" data-name="Name" placeholder="Your full name" type="text" id="name" required=""></div>
+              <div class="contact-text-field-block"><label for="Email" class="text-label">Your email</label><input class="text-field w-input" maxlength="256" name="Email" data-name="Email" placeholder="Write your email" type="email" id="Email" required=""></div>
+              <div class="contact-text-field-block"><label for="Phone" class="text-label">Your phone</label><input class="text-field w-input" maxlength="256" name="Phone" data-name="Phone" placeholder="Your phone number" type="tel" id="Phone" required=""></div>
+              <div class="contact-text-field-block"><label for="Message" class="text-label">Message</label><textarea id="Message" name="Message" maxlength="5000" data-name="Message" placeholder="White your message" required="" class="message-field w-input"></textarea></div>
+            </div><input type="submit" data-wait="Please wait..." class="form-submit-button w-button" value="Send Message">
+          </form>
+          <div class="sucess-message w-form-done">
+            <div>Thank you! Your submission has been received!</div>
+          </div>
+          <div class="error-message w-form-fail">
+            <div>Oops! Something went wrong while submitting the form.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <Cta />
+  <FormHandler />
+</BaseLayout>

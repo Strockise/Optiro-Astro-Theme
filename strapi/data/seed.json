@@ -1,0 +1,1645 @@
+{
+  "blogs": [
+    {
+      "title": "AI art vs. traditional art: can they co-exist?",
+      "slug": "ai-art-vs-traditional-art-can-they-co-exist",
+      "date": "2025-10-01",
+      "authorName": "Optiro Team",
+      "readTime": "04 min",
+      "isFeatured": false,
+      "image": "blog-ai-art-vs-traditional-art-can-they-co-exist.webp",
+      "content": [
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "Introduction"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Chatbots have been around for years—answering simple questions, guiding customers, and automating responses. But today, a new wave of technology is rising: AI Agents. While chatbots often stick to scripts, AI agents go far beyond. They think, act, adapt, and even learn from interactions. In this article, we’ll explore the key differences between AI agents and chatbots, and why the future of work belongs to agents."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "What is a chatbot?\n"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "A chatbot is a program designed to simulate conversation with users. "
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "format": "unordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "What are their pain points?Usually rule-based or keyword-driven."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Great for answering FAQs, booking appointments, or providing basic support."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Limited flexibility—can’t handle unexpected requests outside its script. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Example: Asking a chatbot “What’s your refund policy?” will trigger a pre-set answer."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "What is an AI agent?\n"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "An AI Agent is a step beyond. Instead of following rigid rules, it: "
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "format": "unordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Understands context and user intent."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Executes tasks autonomously, not just replies."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Connects with multiple tools (like Slack, Notion, Google Workspace)."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": " Continuously learns and improves from every interaction. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Example: Asking an AI agent “Prepare a sales report for last quarter” can lead to it pulling data, generating insights, and delivering a ready-to-use report."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "Why AI agents are the future"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "format": "unordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Businesses need more than “FAQ bots.”"
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "AI agents save time, cut costs, and improve workflows."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "They act as scalable teammates, not just answering but executing."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "As industries adopt automation, agents will become the standard for digital work."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "Conclusion"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "While chatbots served as a starting point in automation, AI agents represent the next evolution, from scripted responders to intelligent digital teammates. The businesses that adopt AI agents today will stay ahead of the curve tomorrow."
+            }
+          ]
+        }
+      ],
+      "metaDescription": "Optiro is a premium Webflow template built to showcase AI agents as smart digital teammates. With CMS-powered sections for automation, integrations, and storytelling, it helps innovators present intelligent, credible, and scalable AI solutions."
+    },
+    {
+      "title": "10 AI art styles you need to try in 2025",
+      "slug": "10-ai-art-styles-you-need-to-try-in-2025",
+      "date": "2025-10-01",
+      "authorName": "Optiro Team",
+      "readTime": "04 min",
+      "isFeatured": false,
+      "image": "blog-10-ai-art-styles-you-need-to-try-in-2025.webp",
+      "content": [
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "Introduction"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Chatbots have been around for years—answering simple questions, guiding customers, and automating responses. But today, a new wave of technology is rising: AI Agents. While chatbots often stick to scripts, AI agents go far beyond. They think, act, adapt, and even learn from interactions. In this article, we’ll explore the key differences between AI agents and chatbots, and why the future of work belongs to agents."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "What is a chatbot?\n"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "A chatbot is a program designed to simulate conversation with users. "
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "format": "unordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "What are their pain points?Usually rule-based or keyword-driven."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Great for answering FAQs, booking appointments, or providing basic support."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Limited flexibility—can’t handle unexpected requests outside its script. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Example: Asking a chatbot “What’s your refund policy?” will trigger a pre-set answer."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "What is an AI agent?\n"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "An AI Agent is a step beyond. Instead of following rigid rules, it: "
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "format": "unordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Understands context and user intent."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Executes tasks autonomously, not just replies."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Connects with multiple tools (like Slack, Notion, Google Workspace)."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": " Continuously learns and improves from every interaction. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Example: Asking an AI agent “Prepare a sales report for last quarter” can lead to it pulling data, generating insights, and delivering a ready-to-use report."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "Why AI agents are the future"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "format": "unordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Businesses need more than “FAQ bots.”"
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "AI agents save time, cut costs, and improve workflows."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "They act as scalable teammates, not just answering but executing."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "As industries adopt automation, agents will become the standard for digital work."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "Conclusion"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "While chatbots served as a starting point in automation, AI agents represent the next evolution, from scripted responders to intelligent digital teammates. The businesses that adopt AI agents today will stay ahead of the curve tomorrow."
+            }
+          ]
+        }
+      ],
+      "metaDescription": "Optiro is a premium Webflow template built to showcase AI agents as smart digital teammates. With CMS-powered sections for automation, integrations, and storytelling, it helps innovators present intelligent, credible, and scalable AI solutions."
+    },
+    {
+      "title": "How to write the perfect AI prompt for stunning results",
+      "slug": "how-to-write-the-perfect-ai-prompt-for-stunning-results",
+      "date": "2025-10-01",
+      "authorName": "Optiro Team",
+      "readTime": "04 min",
+      "isFeatured": false,
+      "image": "blog-how-to-write-the-perfect-ai-prompt-for-stunning-results.webp",
+      "content": [
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "Introduction"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Chatbots have been around for years—answering simple questions, guiding customers, and automating responses. But today, a new wave of technology is rising: AI Agents. While chatbots often stick to scripts, AI agents go far beyond. They think, act, adapt, and even learn from interactions. In this article, we’ll explore the key differences between AI agents and chatbots, and why the future of work belongs to agents."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "What is a chatbot?\n"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "A chatbot is a program designed to simulate conversation with users. "
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "format": "unordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "What are their pain points?Usually rule-based or keyword-driven."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Great for answering FAQs, booking appointments, or providing basic support."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Limited flexibility—can’t handle unexpected requests outside its script. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Example: Asking a chatbot “What’s your refund policy?” will trigger a pre-set answer."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "What is an AI agent?\n"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "An AI Agent is a step beyond. Instead of following rigid rules, it: "
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "format": "unordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Understands context and user intent."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Executes tasks autonomously, not just replies."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Connects with multiple tools (like Slack, Notion, Google Workspace)."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": " Continuously learns and improves from every interaction. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Example: Asking an AI agent “Prepare a sales report for last quarter” can lead to it pulling data, generating insights, and delivering a ready-to-use report."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "Why AI agents are the future"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "format": "unordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Businesses need more than “FAQ bots.”"
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "AI agents save time, cut costs, and improve workflows."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "They act as scalable teammates, not just answering but executing."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "As industries adopt automation, agents will become the standard for digital work."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "Conclusion"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "While chatbots served as a starting point in automation, AI agents represent the next evolution, from scripted responders to intelligent digital teammates. The businesses that adopt AI agents today will stay ahead of the curve tomorrow."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "‍"
+            }
+          ]
+        }
+      ],
+      "metaDescription": "Optiro is a premium Webflow template built to showcase AI agents as smart digital teammates. With CMS-powered sections for automation, integrations, and storytelling, it helps innovators present intelligent, credible, and scalable AI solutions."
+    },
+    {
+      "title": "How to build a sales process that scales",
+      "slug": "how-to-build-a-sales-process-that-scales",
+      "date": "2025-10-01",
+      "authorName": "Optiro Team",
+      "readTime": "04 min",
+      "isFeatured": true,
+      "image": "blog-how-to-build-a-sales-process-that-scales.webp",
+      "content": [
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "Introduction"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Chatbots have been around for years—answering simple questions, guiding customers, and automating responses. But today, a new wave of technology is rising: AI Agents. While chatbots often stick to scripts, AI agents go far beyond. They think, act, adapt, and even learn from interactions. In this article, we’ll explore the key differences between AI agents and chatbots, and why the future of work belongs to agents."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "What is a chatbot?\n"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "A chatbot is a program designed to simulate conversation with users. "
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "format": "unordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "What are their pain points?Usually rule-based or keyword-driven."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Great for answering FAQs, booking appointments, or providing basic support."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Limited flexibility—can’t handle unexpected requests outside its script. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Example: Asking a chatbot “What’s your refund policy?” will trigger a pre-set answer."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "What is an AI agent?\n"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "An AI Agent is a step beyond. Instead of following rigid rules, it: "
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "format": "unordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Understands context and user intent."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Executes tasks autonomously, not just replies."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Connects with multiple tools (like Slack, Notion, Google Workspace)."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": " Continuously learns and improves from every interaction. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Example: Asking an AI agent “Prepare a sales report for last quarter” can lead to it pulling data, generating insights, and delivering a ready-to-use report."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "Why AI agents are the future"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "format": "unordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Businesses need more than “FAQ bots.”"
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "AI agents save time, cut costs, and improve workflows."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "They act as scalable teammates, not just answering but executing."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "As industries adopt automation, agents will become the standard for digital work."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "Conclusion"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "While chatbots served as a starting point in automation, AI agents represent the next evolution, from scripted responders to intelligent digital teammates. The businesses that adopt AI agents today will stay ahead of the curve tomorrow."
+            }
+          ]
+        }
+      ],
+      "metaDescription": "Optiro is a premium Webflow template built to showcase AI agents as smart digital teammates. With CMS-powered sections for automation, integrations, and storytelling, it helps innovators present intelligent, credible, and scalable AI solutions."
+    },
+    {
+      "title": "The role of AI in education: visual learning made easy",
+      "slug": "the-role-of-ai-in-education-visual-learning-made-easy",
+      "date": "2025-10-01",
+      "authorName": "Optiro Team",
+      "readTime": "04 min",
+      "isFeatured": false,
+      "image": "blog-the-role-of-ai-in-education-visual-learning-made-easy.webp",
+      "content": [
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "Introduction"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Chatbots have been around for years—answering simple questions, guiding customers, and automating responses. But today, a new wave of technology is rising: AI Agents. While chatbots often stick to scripts, AI agents go far beyond. They think, act, adapt, and even learn from interactions. In this article, we’ll explore the key differences between AI agents and chatbots, and why the future of work belongs to agents."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "What is a chatbot?\n"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "A chatbot is a program designed to simulate conversation with users. "
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "format": "unordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "What are their pain points?Usually rule-based or keyword-driven."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Great for answering FAQs, booking appointments, or providing basic support."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Limited flexibility—can’t handle unexpected requests outside its script. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Example: Asking a chatbot “What’s your refund policy?” will trigger a pre-set answer."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "What is an AI agent?\n"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "An AI Agent is a step beyond. Instead of following rigid rules, it: "
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "format": "unordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Understands context and user intent."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Executes tasks autonomously, not just replies."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Connects with multiple tools (like Slack, Notion, Google Workspace)."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": " Continuously learns and improves from every interaction. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Example: Asking an AI agent “Prepare a sales report for last quarter” can lead to it pulling data, generating insights, and delivering a ready-to-use report."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "Why AI agents are the future"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "format": "unordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Businesses need more than “FAQ bots.”"
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "AI agents save time, cut costs, and improve workflows."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "They act as scalable teammates, not just answering but executing."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "As industries adopt automation, agents will become the standard for digital work."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "Conclusion"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "While chatbots served as a starting point in automation, AI agents represent the next evolution, from scripted responders to intelligent digital teammates. The businesses that adopt AI agents today will stay ahead of the curve tomorrow."
+            }
+          ]
+        }
+      ],
+      "metaDescription": "Optiro is a premium Webflow template built to showcase AI agents as smart digital teammates. With CMS-powered sections for automation, integrations, and storytelling, it helps innovators present intelligent, credible, and scalable AI solutions."
+    },
+    {
+      "title": "Step-by-Step: creating high-resolution AI art with pixaly",
+      "slug": "step-by-step-creating-high-resolution-ai-art-with-pixaly",
+      "date": "2025-10-01",
+      "authorName": "Optiro Team",
+      "readTime": "04 min",
+      "isFeatured": false,
+      "image": "blog-step-by-step-creating-high-resolution-ai-art-with-pixaly.webp",
+      "content": [
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "Introduction"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Chatbots have been around for years—answering simple questions, guiding customers, and automating responses. But today, a new wave of technology is rising: AI Agents. While chatbots often stick to scripts, AI agents go far beyond. They think, act, adapt, and even learn from interactions. In this article, we’ll explore the key differences between AI agents and chatbots, and why the future of work belongs to agents."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "What is a chatbot?\n"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "A chatbot is a program designed to simulate conversation with users. "
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "format": "unordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "What are their pain points?Usually rule-based or keyword-driven."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Great for answering FAQs, booking appointments, or providing basic support."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Limited flexibility—can’t handle unexpected requests outside its script. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Example: Asking a chatbot “What’s your refund policy?” will trigger a pre-set answer."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "What is an AI agent?\n"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "An AI Agent is a step beyond. Instead of following rigid rules, it: "
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "format": "unordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Understands context and user intent."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Executes tasks autonomously, not just replies."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Connects with multiple tools (like Slack, Notion, Google Workspace)."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": " Continuously learns and improves from every interaction. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Example: Asking an AI agent “Prepare a sales report for last quarter” can lead to it pulling data, generating insights, and delivering a ready-to-use report."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "Why AI agents are the future"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "format": "unordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Businesses need more than “FAQ bots.”"
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "AI agents save time, cut costs, and improve workflows."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "They act as scalable teammates, not just answering but executing."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "As industries adopt automation, agents will become the standard for digital work."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "Conclusion"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "While chatbots served as a starting point in automation, AI agents represent the next evolution, from scripted responders to intelligent digital teammates. The businesses that adopt AI agents today will stay ahead of the curve tomorrow."
+            }
+          ]
+        }
+      ],
+      "metaDescription": "Optiro is a premium Webflow template built to showcase AI agents as smart digital teammates. With CMS-powered sections for automation, integrations, and storytelling, it helps innovators present intelligent, credible, and scalable AI solutions."
+    },
+    {
+      "title": "The ultimate beginner’s guide to AI image generation",
+      "slug": "the-ultimate-beginners-guide-to-ai-image-generation",
+      "date": "2025-10-01",
+      "authorName": "Optiro Team",
+      "readTime": "04 min",
+      "isFeatured": false,
+      "image": "blog-the-ultimate-beginners-guide-to-ai-image-generation.webp",
+      "content": [
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "Introduction"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Chatbots have been around for years—answering simple questions, guiding customers, and automating responses. But today, a new wave of technology is rising: AI Agents. While chatbots often stick to scripts, AI agents go far beyond. They think, act, adapt, and even learn from interactions. In this article, we’ll explore the key differences between AI agents and chatbots, and why the future of work belongs to agents."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "What is a chatbot?\n"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "A chatbot is a program designed to simulate conversation with users. "
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "format": "unordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "What are their pain points?Usually rule-based or keyword-driven."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Great for answering FAQs, booking appointments, or providing basic support."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Limited flexibility—can’t handle unexpected requests outside its script. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Example: Asking a chatbot “What’s your refund policy?” will trigger a pre-set answer."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "What is an AI agent?\n"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "An AI Agent is a step beyond. Instead of following rigid rules, it: "
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "format": "unordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Understands context and user intent."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Executes tasks autonomously, not just replies."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Connects with multiple tools (like Slack, Notion, Google Workspace)."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": " Continuously learns and improves from every interaction. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Example: Asking an AI agent “Prepare a sales report for last quarter” can lead to it pulling data, generating insights, and delivering a ready-to-use report."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "Why AI agents are the future"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "format": "unordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Businesses need more than “FAQ bots.”"
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "AI agents save time, cut costs, and improve workflows."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "They act as scalable teammates, not just answering but executing."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "As industries adopt automation, agents will become the standard for digital work."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "Conclusion"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "While chatbots served as a starting point in automation, AI agents represent the next evolution, from scripted responders to intelligent digital teammates. The businesses that adopt AI agents today will stay ahead of the curve tomorrow."
+            }
+          ]
+        }
+      ],
+      "metaDescription": "Optiro is a premium Webflow template built to showcase AI agents as smart digital teammates. With CMS-powered sections for automation, integrations, and storytelling, it helps innovators present intelligent, credible, and scalable AI solutions."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+---
+/**
+ * Submits Webflow-styled forms (`.w-form form[action]`) to an external form service with fetch
+ * and shows the template's own success (.w-form-done) / error (.w-form-fail) states.
+ * Forms without an `action` are left to webflow.js.
+ */
+---
+
+<script>
+  for (const form of document.querySelectorAll<HTMLFormElement>('.w-form form[action]')) {
+    const wrapper = form.closest('.w-form');
+    const done = wrapper?.querySelector<HTMLElement>('.w-form-done');
+    const fail = wrapper?.querySelector<HTMLElement>('.w-form-fail');
+    const submit = form.querySelector<HTMLInputElement>('input[type="submit"]');
+
+    form.addEventListener('submit', async (event) => {
+      event.preventDefault();
+      const label = submit?.value;
+      if (submit) {
+        submit.disabled = true;
+        submit.value = submit.dataset.wait || label || '';
+      }
+      if (fail) fail.style.display = 'none';
+      try {
+        const res = await fetch(form.action, { method: 'POST', body: new FormData(form), headers: { Accept: 'application/json' } });
+        if (!res.ok) throw new Error(String(res.status));
+        form.reset();
+        form.style.display = 'none';
+        if (done) done.style.display = 'block';
+      } catch {
+        if (fail) fail.style.display = 'block';
+      } finally {
+        if (submit) {
+          submit.disabled = false;
+          submit.value = label || '';
+        }
+      }
+    });
+  }
+</script>

@@ -1,0 +1,103 @@
+---
+import type { GetStaticPaths } from 'astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Cta from '../../components/Cta.astro';
+import BlogCard from '../../components/cards/BlogCard.astro';
+import config from '../../config/config.json';
+import { getBlogs, type Blog } from '../../lib/content';
+import { blocksToHtml } from '../../lib/blocks';
+import { mediaUrl } from '../../lib/strapi';
+import { ixUp } from '../../lib/ix';
+import { formatDate } from '../../lib/utils';
+
+export const getStaticPaths = (async () => {
+  const blogs = await getBlogs();
+  return blogs.map((blog) => ({
+    params: { slug: blog.slug },
+    // Related blogs: the newest posts other than this one, as in the Webflow template.
+    props: { blog, related: blogs.filter((b) => b.slug !== blog.slug).slice(0, config.blog.relatedPosts) },
+  }));
+}) satisfies GetStaticPaths;
+
+interface Props {
+  blog: Blog;
+  related: Blog[];
+}
+
+const { blog, related } = Astro.props;
+const html = blocksToHtml(blog.content, mediaUrl);
+---
+
+<BaseLayout pageId="6ac8861e88e22add894545ba" title={blog.title} rawTitle description={blog.metaDescription} image={blog.image?.src} type="article">
+  <section class="blog-details-section">
+    <div class="w-layout-blockcontainer main-container w-container">
+      <div class="blog-details-content-block relative">
+        <div class="section-header-block">
+          <div class="header-block width-1025px">
+            <h1 class="display-header">{blog.title}</h1>
+          </div>
+        </div>
+        <div class="blog-overview-block">
+          <div data-w-id="4cc1ddd8-5f9f-dbdf-1f47-66d0d3dbf994" style={ixUp('20%')} class="blog-image-block">
+            {blog.image && <img loading="lazy" src={blog.image.src} srcset={blog.image.srcset} sizes="(max-width: 1279px) 100vw, 1200px" alt={blog.image.alt} class="blog-image" />}
+          </div>
+          <div data-w-id="4cc1ddd8-5f9f-dbdf-1f47-66d0d3dbf996" style={ixUp('25%')} class="blog-overview-card-block">
+            <div class="blog-overview-card-content">
+              <div class="blog-overview-item">
+                <div class="body-text-default">Author:</div>
+                <div class="text-extra-small">{blog.authorName}</div>
+              </div>
+              <div class="blog-overview-item">
+                <div class="body-text-default">Published:</div>
+                <div class="text-extra-small">{formatDate(blog.date)}</div>
+              </div>
+              <div class="blog-overview-item">
+                <div class="body-text-default">Reading Time:</div>
+                <div class="text-extra-small">{blog.readTime}</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="blog-rich-text-wrap">
+          <div data-w-id="4cc1ddd8-5f9f-dbdf-1f47-66d0d3dbf9a8" style={ixUp('5%')} class="blog-rich-text w-richtext" set:html={html} />
+        </div>
+      </div>
+    </div>
+    <div class="section-glow">
+      <div class="primary-glow"></div>
+    </div>
+  </section>
+  <section class="releated-blog-section">
+    <div class="w-layout-blockcontainer main-container small-width w-container">
+      <div class="releated-blog-content-block">
+        <div class="section-header-block flex-verticle-center">
+          <div class="section-tag-block di">
+            <div class="tag-circle"></div>
+            <div class="tag-text">More blogs</div>
+          </div>
+          <div class="header-block">
+            <h2 class="section-header">Related<span> </span>blogs</h2>
+          </div>
+        </div>
+        <div class="related-blog-cms-wrap w-dyn-list">
+          {
+            related.length > 0 ? (
+              <div role="list" class="related-blog-cms-list w-dyn-items">
+                {related.map((b) => (
+                  <div role="listitem" class="related-blog-cms-item w-dyn-item">
+                    <BlogCard blog={b} wId="6c5069b3-d3c4-80dc-d798-7af9bba5eb1e" />
+                  </div>
+                ))}
+              </div>
+            ) : (
+              <div class="w-dyn-empty">
+                <div>No items found.</div>
+              </div>
+            )
+          }
+        </div>
+      </div>
+    </div>
+  </section>
+  <Cta />
+</BaseLayout>

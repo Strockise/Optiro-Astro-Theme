@@ -1,0 +1,33 @@
+---
+import type { Blog } from '../../lib/content';
+import { blogUrl, formatDate } from '../../lib/utils';
+import { ixUp as up } from '../../lib/ix';
+
+interface Props {
+  blog: Blog;
+}
+
+const { blog } = Astro.props;
+const url = blogUrl(blog.slug);
+---
+
+<div data-w-id="8c9763dd-df0c-9f3c-6252-fc4c91ea9e9a" style={up('10%')} class="feature-blog-card">
+  <div class="feature-blog-card-content">
+    <a aria-label={blog.title} href={url} class="feature-blog-image-block w-inline-block">
+      {blog.image && <img loading="lazy" src={blog.image.src} srcset={blog.image.srcset} sizes="(max-width: 767px) 100vw, 450px" alt={blog.image.alt} class="feautre-blog-image" />}
+    </a>
+    <div class="feature-blog-main-content">
+      <div class="section-tag-block">
+        <div class="tag-text">Featured</div>
+      </div>
+      <a aria-label="Link Header" data-w-id="8c9763dd-df0c-9f3c-6252-fc4c91ea9ea2" style={up('10%')} href={url} class="link-header w-inline-block">
+        <div class="featured-blog-title">{blog.title}</div>
+      </a>
+      <div data-w-id="8c9763dd-df0c-9f3c-6252-fc4c91ea9ea5" style={up('20%')} class="feature-card-info-block">
+        <div class="body-text-default">{blog.authorName}</div>
+        <div class="blog-circle"></div>
+        <div class="body-text-default">{formatDate(blog.date)}</div>
+      </div>
+    </div>
+  </div>
+</div>

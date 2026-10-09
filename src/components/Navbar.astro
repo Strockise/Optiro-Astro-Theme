@@ -1,0 +1,78 @@
+---
+import menu from '../config/menu.json';
+import PrimaryButton from './PrimaryButton.astro';
+import { currentAttrs } from '../lib/utils';
+
+const path = Astro.url.pathname;
+---
+
+<div class="navbar-wrapper">
+  <div data-w-id="98a03744-c168-e6eb-b093-92cab256b7e8" data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar w-nav">
+    <div class="main-container w-container">
+      <div class="navbar-block">
+        <a href="/" {...currentAttrs('/', path, 'navbar-brand-block w-nav-brand')}><img loading="lazy" src="/images/navbar-brand.svg" alt="Navbar Brand Logo" class="navbar-brand-logo" /></a>
+        <nav role="navigation" class="navbar-menu-block w-nav-menu">
+          <div class="navbar-menu-content">
+            {
+              menu.main.map((item) =>
+                'dropdown' in item ? (
+                  <div data-delay="800" data-hover="false" data-w-id="98a03744-c168-e6eb-b093-92cab256b7fb" class="navbar-dropdown-block w-dropdown">
+                    <div data-w-id="98a03744-c168-e6eb-b093-92cab256b7fc" class="navbar-dropdown-toggle w-dropdown-toggle">
+                      <div class="dropdown-toggle-content">
+                        <div>{item.dropdown}</div>
+                        <div class="dropdown-arrow w-embed">
+                          <svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.75 0.749957L6.0429 6.04285C6.3762 6.37619 6.5429 6.54285 6.75 6.54285C6.9571 6.54285 7.1238 6.37619 7.4571 6.04285L12.75 0.749957" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                          </svg>
+                        </div>
+                      </div>
+                      <div class="navbar-link-liner" />
+                    </div>
+                    <nav class="navbar-dropdown-wrap w-dropdown-list">
+                      <div class="navbar-dropdown-menu">
+                        <div class="navbar-dropdown-menu-content">
+                          {menu.pagesMenu.map((group) => (
+                            <div class="dropdown-menu-item">
+                              <div class="text-small">{group.title}</div>
+                              <div class="dropdown-links-wrap">
+                                {group.links.map((link) => (
+                                  <a href={link.url} {...currentAttrs(link.url, path, 'dropdown-link w-inline-block')}>
+                                    <div>{link.label}</div>
+                                  </a>
+                                ))}
+                              </div>
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+                    </nav>
+                  </div>
+                ) : (
+                  <a href={item.url} {...currentAttrs(item.url, path, 'navbar-link-block w-inline-block')}>
+                    <div class="navbar-link-text">{item.label}</div>
+                    <div class="navbar-link-liner" />
+                  </a>
+                )
+              )
+            }
+            <a href={menu.mobileCta.url} class="primary-button is-menu w-inline-block">
+              <div class="button-text">{menu.mobileCta.label}</div>
+            </a>
+          </div>
+        </nav>
+        <div class="navbar-buttons-block">
+          <PrimaryButton href={menu.cta.url} label={menu.cta.label} variant="nav" />
+          <div class="menu-button w-nav-button">
+            <div class="menu-icon w-embed">
+              <svg width="100%" height="100%" viewBox="0 0 39 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M2 2.03711H30.5185" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" />
+                <path d="M2 15H37" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" />
+                <path d="M2 27.9631H30.5185" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

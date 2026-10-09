@@ -1,0 +1,37 @@
+---
+import config from '../config/config.json';
+
+interface Props {
+  /** Page title. A plain page name gets the site suffix (" || Optiro"); omit it for the site title. */
+  title?: string;
+  /** Use `title` as-is, without the site suffix (blog posts). */
+  rawTitle?: boolean;
+  description?: string;
+  image?: string;
+  type?: 'website' | 'article';
+  noindex?: boolean;
+}
+
+const { site } = config;
+const title = Astro.props.title ? (Astro.props.rawTitle ? Astro.props.title : `${Astro.props.title}${site.titleSuffix}`) : site.title;
+const description = Astro.props.description || site.description;
+const type = Astro.props.type ?? 'website';
+const { noindex = false } = Astro.props;
+// og:image must be absolute; fall back to the request origin when `site` is not configured
+const base = Astro.site ?? Astro.url;
+const image = new URL(Astro.props.image ?? site.ogImage, base).href;
+const canonical = Astro.site ? new URL(Astro.url.pathname, Astro.site).href : undefined;
+---
+
+<title>{title}</title>
+<meta content={description} name="description" />
+<meta content={title} property="og:title" />
+<meta content={description} property="og:description" />
+<meta content={image} property="og:image" />
+<meta content={title} name="twitter:title" />
+<meta content={description} name="twitter:description" />
+<meta content={image} name="twitter:image" />
+<meta property="og:type" content={type} />
+<meta content="summary_large_image" name="twitter:card" />
+{canonical && <link rel="canonical" href={canonical} />}
+{noindex && <meta name="robots" content="noindex" />}

@@ -1,0 +1,82 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Cta from '../../components/Cta.astro';
+import BlogCard from '../../components/cards/BlogCard.astro';
+import FeaturedBlogCard from '../../components/cards/FeaturedBlogCard.astro';
+import { getBlogs } from '../../lib/content';
+import { ixUp } from '../../lib/ix';
+
+const blogs = await getBlogs();
+// Webflow showed the newest post flagged "Is Featured" (one item).
+const featured = blogs.filter((b) => b.isFeatured).slice(0, 1);
+---
+
+<BaseLayout pageId="6ac8861e88e22add894545b9" title="Blog">
+  <section class="main-blog-section">
+    <div class="section-glow">
+      <div class="primary-glow"></div>
+    </div>
+    <div class="w-layout-blockcontainer main-container less-width w-container">
+      <div class="main-blog-content">
+        <div class="section-header-block flex-verticle-center">
+          <div class="header-block">
+            <h1 class="display-header">Optiro Insights</h1>
+          </div>
+          <div data-w-id="36a44ecc-0447-c557-4663-fa58933c35bd" style={ixUp('10%')} class="summery-block top-20px width-730px">
+            <p class="body-text-default">Stay updated with the latest on AI, chatbots, and SaaS innovation. Our blog brings you expert tips, industry news, and real-world strategies to help you grow and automate smarter.</p>
+          </div>
+        </div>
+        <div class="feature-cms-wrapper w-dyn-list">
+          {
+            featured.length > 0 ? (
+              <div role="list" class="feature-cms-list w-dyn-items">
+                {featured.map((blog) => (
+                  <div role="listitem" class="feature-cms-list-item w-dyn-item">
+                    <FeaturedBlogCard blog={blog} />
+                  </div>
+                ))}
+              </div>
+            ) : (
+              <div class="w-dyn-empty">
+                <div>No items found.</div>
+              </div>
+            )
+          }
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="all-blogs-section">
+    <div class="w-layout-blockcontainer main-container less-width w-container">
+      <div class="al-blogs-content-block">
+        <div class="section-header-block flex-verticle-center">
+          <div class="section-tag-block">
+            <div class="tag-circle"></div>
+            <div class="tag-text">All blogs</div>
+          </div>
+          <div class="header-block">
+            <h2 class="section-header">Our all blogs</h2>
+          </div>
+        </div>
+        <div class="all-blogs-cms-wrap w-dyn-list">
+          {
+            blogs.length > 0 ? (
+              <div role="list" class="all-blogs-list-block w-dyn-items">
+                {blogs.map((blog) => (
+                  <div role="listitem" class="all-blogs-list-item w-dyn-item">
+                    <BlogCard blog={blog} wId="ad353549-cb4d-b2e3-714f-4f6616ffcc8b" />
+                  </div>
+                ))}
+              </div>
+            ) : (
+              <div class="w-dyn-empty">
+                <div>No items found.</div>
+              </div>
+            )
+          }
+        </div>
+      </div>
+    </div>
+  </section>
+  <Cta />
+</BaseLayout>

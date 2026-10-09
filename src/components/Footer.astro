@@ -1,0 +1,101 @@
+---
+import config from '../config/config.json';
+import menu from '../config/menu.json';
+import social from '../config/social.json';
+import { currentAttrs } from '../lib/utils';
+
+const path = Astro.url.pathname;
+const [mainLinks, utilityLinks] = menu.footer;
+const { poweredBy } = config.credits;
+const year = new Date().getFullYear();
+---
+
+<section class="footer-section">
+  <div class="w-layout-blockcontainer main-container w-container">
+    <div class="footer-content-block">
+      <div class="footer-main-content">
+        <div data-w-id="b21a1a5b-95d5-0365-0645-bd700d2e2a98" class="footer-links-wrap">
+          {
+            mainLinks.map((link) => (
+              <a href={link.url} {...currentAttrs(link.url, path, 'footer-links-block w-inline-block')}>
+                <div class="footer-link-text">{link.label}</div>
+              </a>
+            ))
+          }
+        </div>
+        <div id="w-node-b21a1a5b-95d5-0365-0645-bd700d2e2aa8-0d2e2a94" data-w-id="b21a1a5b-95d5-0365-0645-bd700d2e2aa8" class="footer-brand-content">
+          <a href="#" class="footer-brand-block w-inline-block"><img loading="lazy" src="/images/navbar-brand.svg" alt="Footer Brand Image" class="footer-brand-image" /></a>
+          <div class="footer-community-block">
+            {
+              social.x && (
+                <a href={social.x} target="_blank" aria-label="X" class="community-link w-inline-block">
+                  <div class="community-icon w-embed">
+                    <svg width="100%" height="100%" viewBox="0 0 21 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M15.868 0.5H18.9202L12.2535 7.71556L20.125 17.5H13.9403L9.12098 11.5689L3.57882 17.5H0.526606L7.6752 9.79333L0.125 0.5H6.47038L10.8479 5.94L15.868 0.5ZM14.7836 15.7622H16.4704L5.54669 2.12444H3.6993L14.7836 15.7622Z" fill="currentColor" />
+                    </svg>
+                  </div>
+                </a>
+              )
+            }
+            {
+              social.facebook && (
+                <a href={social.facebook} aria-label="Facebook" class="community-link w-inline-block">
+                  <div class="community-icon w-embed">
+                    <svg width="11" height="20" viewBox="0 0 11 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M9.71975 11.1068L10.238 7.69417H6.996V5.47959C6.996 4.54596 7.44886 3.63592 8.90098 3.63592H10.375V0.730583C10.375 0.730583 9.03726 0.5 7.75833 0.5C5.0882 0.5 3.34304 2.13437 3.34304 5.0932V7.69417H0.375V11.1068H3.34304V19.3566C3.93817 19.4509 4.54815 19.5 5.16952 19.5C5.79089 19.5 6.40087 19.4509 6.996 19.3566V11.1068H9.71975Z" fill="currentColor" />
+                    </svg>
+                  </div>
+                </a>
+              )
+            }
+            {
+              social.instagram && (
+                <a href={social.instagram} target="_blank" aria-label="Instagram" class="community-link w-inline-block">
+                  <div class="community-icon w-embed">
+                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M2.875 12.5C2.875 8.02166 2.875 5.78249 4.26624 4.39124C5.65749 3 7.89666 3 12.375 3C16.8533 3 19.0925 3 20.4838 4.39124C21.875 5.78249 21.875 8.02166 21.875 12.5C21.875 16.9783 21.875 19.2175 20.4838 20.6088C19.0925 22 16.8533 22 12.375 22C7.89666 22 5.65749 22 4.26624 20.6088C2.875 19.2175 2.875 16.9783 2.875 12.5Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
+                      <path d="M16.875 12.5C16.875 14.9853 14.8603 17 12.375 17C9.88972 17 7.875 14.9853 7.875 12.5C7.875 10.0147 9.88972 8 12.375 8C14.8603 8 16.875 10.0147 16.875 12.5Z" stroke="currentColor" stroke-width="1.5" />
+                      <path d="M17.884 7H17.875" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                  </div>
+                </a>
+              )
+            }
+            {
+              social.linkedin && (
+                <a href={social.linkedin} target="_blank" aria-label="LinkedIn" class="community-link w-inline-block">
+                  <div class="community-icon w-embed">
+                    <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M9.1864 9.48945V15.5195H5.82031V4.94627H9.02119V6.88744H9.13821C9.37225 6.24038 9.7715 5.73329 10.336 5.36617C10.9004 4.99445 11.5727 4.80859 12.3529 4.80859C13.0963 4.80859 13.741 4.97609 14.2871 5.3111C14.8378 5.64151 15.2646 6.10501 15.5675 6.70159C15.875 7.29358 16.0264 7.98653 16.0218 8.78044V15.5195H12.6557V9.44126C12.6603 8.85386 12.5112 8.39495 12.2083 8.06454C11.91 7.73413 11.4947 7.56892 10.9624 7.56892C10.609 7.56892 10.297 7.64693 10.0262 7.80296C9.76003 7.9544 9.55352 8.17238 9.40667 8.45691C9.26441 8.74143 9.19098 9.08561 9.1864 9.48945Z" fill="currentColor" />
+                      <path d="M0.314739 15.52V4.94681H3.68082V15.52H0.314739ZM2.00122 3.71465C1.52855 3.71465 1.12242 3.55862 0.782824 3.24656C0.443233 2.92991 0.273438 2.54902 0.273438 2.10388C0.273438 1.66333 0.443233 1.28703 0.782824 0.974969C1.12242 0.658323 1.52855 0.5 2.00122 0.5C2.47849 0.5 2.88462 0.658323 3.21962 0.974969C3.55921 1.28703 3.72901 1.66333 3.72901 2.10388C3.72901 2.54902 3.55921 2.92991 3.21962 3.24656C2.88462 3.55862 2.47849 3.71465 2.00122 3.71465Z" fill="currentColor" />
+                    </svg>
+                  </div>
+                </a>
+              )
+            }
+          </div>
+        </div>
+        <div data-w-id="b21a1a5b-95d5-0365-0645-bd700d2e2ab4" class="footer-links-wrap">
+          {
+            utilityLinks.map((link) => (
+              <a href={link.url} {...currentAttrs(link.url, path, 'footer-links-block w-inline-block')}>
+                <div class="footer-link-text">{link.label}</div>
+              </a>
+            ))
+          }
+        </div>
+      </div>
+      <div class="footer-liner"></div>
+      <div data-w-id="b21a1a5b-95d5-0365-0645-bd700d2e2ac5" class="footer-bottom-content">
+        <div class="footer-bottom-text-block">
+          <p class="body-text-default">Copyright © {year} <a href="/" class="link-span">{config.site.name}</a>
+          </p>
+        </div>
+        <div class="footer-bottom-text-block">
+          <p class="body-text-default">Powered by <a href={poweredBy.url} target="_blank" class="link-span">{poweredBy.label}</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

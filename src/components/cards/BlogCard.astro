@@ -1,0 +1,32 @@
+---
+import type { Blog } from '../../lib/content';
+import { blogUrl, formatDate } from '../../lib/utils';
+import { ixUp } from '../../lib/ix';
+
+interface Props {
+  blog: Blog;
+  /** Webflow interaction id of the list this card belongs to (scroll reveal). */
+  wId: string;
+}
+
+const { blog, wId } = Astro.props;
+const url = blogUrl(blog.slug);
+---
+
+<div class="blog-card-block">
+  <div data-w-id={wId} style={ixUp('10%')} class="blog-card-content">
+    <a aria-label={blog.title} href={url} class="blog-card-image-block w-inline-block">
+      {blog.image && <img loading="lazy" src={blog.image.src} srcset={blog.image.srcset} sizes="(max-width: 767px) 100vw, 480px" alt={blog.image.alt} class="blog-card-image" />}
+    </a>
+    <div class="blog-text-content">
+      <a href={url} class="link-header w-inline-block">
+        <div class="text-medium">{blog.title}</div>
+      </a>
+      <div class="blog-info-block">
+        <div class="body-text-small opacity-70">{blog.authorName}</div>
+        <div class="blog-circle"></div>
+        <div class="body-text-small opacity-70">{formatDate(blog.date)}</div>
+      </div>
+    </div>
+  </div>
+</div>

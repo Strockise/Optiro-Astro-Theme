@@ -1,0 +1,22 @@
+{
+  "site": {
+    "name": "Optiro",
+    "title": "Optiro - AI Agent Astro Theme",
+    "titleSuffix": " || Optiro",
+    "description": "Optiro is a premium Astro theme built to showcase AI agents as smart digital teammates. With Strapi-powered content, automation and integration sections, and storytelling layouts, it helps innovators present intelligent, credible, and scalable AI solutions.",
+    "ogImage": "/images/og-image.png",
+    "language": "en"
+  },
+  "webflow": {
+    "siteId": "6ac8861e88e22add894545c8"
+  },
+  "forms": {
+    "contactAction": ""
+  },
+  "credits": {
+    "poweredBy": { "label": "Astro", "url": "https://astro.build/" }
+  },
+  "blog": {
+    "relatedPosts": 2
+  }
+}

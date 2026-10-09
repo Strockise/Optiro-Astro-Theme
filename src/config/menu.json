@@ -1,0 +1,44 @@
+{
+  "main": [
+    { "label": "Home", "url": "/" },
+    { "label": "Features", "url": "/feature" },
+    { "label": "Blog", "url": "/blog" },
+    { "dropdown": "Pages" },
+    { "label": "Pricing", "url": "/pricing" }
+  ],
+  "pagesMenu": [
+    {
+      "title": "Pages",
+      "links": [
+        { "label": "Home", "url": "/" },
+        { "label": "Features", "url": "/feature" },
+        { "label": "Pricing", "url": "/pricing" },
+        { "label": "Contact", "url": "/contact" },
+        { "label": "Blog", "url": "/blog" },
+        { "label": "Blog Details", "url": "/blog/the-ultimate-beginners-guide-to-ai-image-generation" }
+      ]
+    },
+    {
+      "title": "Utility ",
+      "links": [
+        { "label": "Style Guide", "url": "/style-guide" },
+        { "label": "404", "url": "/404" }
+      ]
+    }
+  ],
+  "cta": { "label": "Sign up", "url": "/contact" },
+  "mobileCta": { "label": "Sign up", "url": "#" },
+  "footer": [
+    [
+      { "label": "Home", "url": "/" },
+      { "label": "Feature", "url": "/feature" },
+      { "label": "Pricing", "url": "/pricing" },
+      { "label": "Blog", "url": "/blog" },
+      { "label": "Contact", "url": "/contact" }
+    ],
+    [
+      { "label": "Style guide", "url": "/style-guide" },
+      { "label": "404 Page", "url": "/404" }
+    ]
+  ]
+}

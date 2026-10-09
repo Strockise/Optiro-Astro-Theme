@@ -1,0 +1,20 @@
+---
+import { currentAttrs } from '../lib/utils';
+
+interface Props {
+  href: string;
+  label: string;
+  /** `nav` is the compact navbar variant. */
+  variant?: 'base' | 'nav';
+}
+
+const { href, label, variant = 'base' } = Astro.props;
+const className = variant === 'nav' ? 'primary-button w-variant-89458d35-d42e-f42e-c5e7-c7e7aca97558 w-inline-block' : 'primary-button w-inline-block';
+---
+
+<a data-wf--primary-buttton--variant={variant} data-w-id="3f614795-f860-7060-b036-27fb1e6c96c2" href={href} {...currentAttrs(href, Astro.url.pathname, className)}>
+  <div class="button-content-block">
+    <div class="button-text is-1">{label}</div>
+    <div class="button-text is-2">{label}</div>
+  </div>
+</a>
