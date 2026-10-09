@@ -27,7 +27,7 @@ import Cta from '../components/Cta.astro';
 
 ### About `pageId`
 
-`pageId` is the Webflow page id that the animations in `public/js/webflow.js` are keyed by. A new page has no animations of its own, so either:
+`pageId` is the page id that the animations in `public/js/interactions.js` are keyed by. A new page has no animations of its own, so either:
 
 - reuse the `pageId` of the page whose sections you copied (copied `data-w-id` elements then animate the same way), or
 - remove the `data-w-id` attributes and the inline `opacity:0` styles from the copied sections, so the content is visible without an animation.

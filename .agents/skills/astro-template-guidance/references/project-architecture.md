@@ -7,8 +7,8 @@ Optiro is a static Astro 7 site. Blog content comes from Strapi 5 at build time,
 ├── astro.config.mjs        # site URL, compressHTML: false, astro:env schema (STRAPI_URL, STRAPI_TOKEN)
 ├── strapi/                 # Strapi 5 project (Blog content type, seed data in strapi/data/)
 ├── public/
-│   ├── css/                # normalize.css, webflow.css (base widgets), optiro-astro-theme.webflow.css (theme)
-│   ├── js/                 # webflow.js (interactions), jquery, gsap + SplitText + ScrollTrigger
+│   ├── css/                # normalize.css, base.css (base widgets), optiro.css (theme)
+│   ├── js/                 # interactions.js (animations runtime), jquery, gsap + SplitText + ScrollTrigger
 │   └── images/             # all static images, favicons, og-image.png
 └── src/
     ├── config/             # config.json, menu.json, social.json

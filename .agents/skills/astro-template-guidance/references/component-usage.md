@@ -4,7 +4,7 @@ All components are in `src/components/`. None of them ship client-side JavaScrip
 
 | Component              | Props                                   | Notes |
 | :--------------------- | :-------------------------------------- | :---- |
-| `Navbar`               | –                                       | Built from `menu.json`. Marks the current page (`w--current` + `aria-current`). The mobile menu and dropdown come from webflow.js. |
+| `Navbar`               | –                                       | Built from `menu.json`. Marks the current page (`w--current` + `aria-current`). The mobile menu and dropdown come from interactions.js. |
 | `Footer`               | –                                       | Built from `menu.json` (`footer`), `social.json` and `config.json` (`credits`). A social link is hidden when its URL is empty. |
 | `Cta`                  | –                                       | Call-to-action banner shown above the footer. |
 | `Faq`                  | –                                       | FAQ accordion (home and pricing). Edit the questions directly in the file. |

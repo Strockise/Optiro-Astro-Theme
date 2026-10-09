@@ -43,6 +43,6 @@ Depending on the request, **read the matching reference document** in `reference
 
 ## Golden rules for this theme
 
-- The markup is a 1:1 port of the original design. Keep class names, `data-w-id` attributes and their inline `style` attributes, because the animations in `public/js/webflow.js` depend on them.
+- The markup is a 1:1 port of the original design. Keep class names, `data-w-id` attributes and their inline `style` attributes, because the animations in `public/js/interactions.js` depend on them.
 - Keep the `pageId` that each page passes to `BaseLayout`.
-- Don't add a CSS framework. Styles live in `public/css/optiro-astro-theme.webflow.css`.
+- Don't add a CSS framework. Styles live in `public/css/optiro.css`.

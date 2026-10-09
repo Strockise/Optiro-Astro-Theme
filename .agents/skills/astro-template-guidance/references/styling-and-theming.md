@@ -5,14 +5,14 @@ The theme uses plain CSS. It has no Tailwind and no CSS-in-JS.
 | File | Role |
 | :--- | :--- |
 | `public/css/normalize.css` | Reset |
-| `public/css/webflow.css` | Base styles for the widgets the runtime uses (`w-nav`, `w-dropdown`, `w-form`, `w-richtext`, …) |
-| `public/css/optiro-astro-theme.webflow.css` | All theme styles |
+| `public/css/base.css` | Base styles for the widgets the runtime uses (`w-nav`, `w-dropdown`, `w-form`, `w-richtext`, …) |
+| `public/css/optiro.css` | All theme styles |
 
 `BaseLayout` loads them in that order.
 
 ## Design tokens
 
-The `:root` block at the top of `optiro-astro-theme.webflow.css` holds the variables:
+The `:root` block at the top of `optiro.css` holds the variables:
 
 - Colours: `--colors-variable--primary-color` (#45d57e, the green accent), `--colors-variable--brand-black`, `--colors-variable--black-pearl`, `--colors-variable--brand-color`, `--colors-variable--white`, `--colors-variable--border-color`
 - Font: `--fonts--brand-font` (Geist)
@@ -35,10 +35,10 @@ The design is dark by default and has no light mode. The two favicons (`favicon.
 
 ## Animations
 
-- Scroll reveals, hover effects and loops: `public/js/webflow.js`, matched by `data-w-id` + the page's `pageId`. An animated element starts from its inline `style` (use `ixUp()` from `src/lib/ix.ts`).
+- Scroll reveals, hover effects and loops: `public/js/interactions.js`, matched by `data-w-id` + the page's `pageId`. An animated element starts from its inline `style` (use `ixUp()` from `src/lib/ix.ts`).
 - Heading reveals: every `.display-header` (on load) and `.section-header` (on scroll) is split into lines by GSAP SplitText.
 - To turn off one animation, remove the element's `data-w-id` and inline `style`.
 
 ## Custom CSS
 
-Add new rules to the end of `optiro-astro-theme.webflow.css`, or put them in a new file under `public/css/` and link it in `BaseLayout.astro` after the theme stylesheet.
+Add new rules to the end of `optiro.css`, or put them in a new file under `public/css/` and link it in `BaseLayout.astro` after the theme stylesheet.

@@ -1,5 +1,5 @@
 /**
- * Initial inline state that Webflow Interactions (in /js/webflow.js) animate from:
+ * Initial inline state that the interactions (in /js/interactions.js) animate from:
  * shifted down by `y` and hidden. It must be rendered on the element, exactly as the
  * Webflow export did, or the element flashes before animating in.
  */

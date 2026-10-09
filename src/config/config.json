@@ -7,7 +7,7 @@
     "ogImage": "/images/og-image.png",
     "language": "en"
   },
-  "webflow": {
+  "interactions": {
     "siteId": "6ac8861e88e22add894545c8"
   },
   "forms": {
