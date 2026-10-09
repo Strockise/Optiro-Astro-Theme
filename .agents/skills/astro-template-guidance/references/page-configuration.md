@@ -10,7 +10,6 @@
 | `site.description`     | Default meta description |
 | `site.ogImage`         | Default Open Graph image (path in `public/`) |
 | `site.language`        | `<html lang>` |
-| `interactions.siteId`       | Site id the interaction runtime reads. Don't change it. |
 | `forms.contactAction`  | Form service endpoint for the contact form (empty means not connected) |
 | `credits.poweredBy`    | "Powered by" link in the footer |
 | `blog.relatedPosts`    | Number of related posts on a blog post |

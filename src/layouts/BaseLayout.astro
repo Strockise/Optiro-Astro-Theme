@@ -3,6 +3,8 @@ import config from '../config/config.json';
 import SeoMeta from '../components/SeoMeta.astro';
 import Navbar from '../components/Navbar.astro';
 import Footer from '../components/Footer.astro';
+// Bundled by Astro into /_astro/*.css (see build.inlineStylesheets in astro.config.mjs).
+import '../styles/global.css';
 
 interface Props {
   /** Page id – the animations bundled in /js/interactions.js are keyed by it. */
@@ -23,11 +25,10 @@ interface Props {
 }
 
 const { pageId, title, rawTitle, description, image, type, noindex, layout = 'default', navbarSpacer = true } = Astro.props;
-const { siteId } = config.interactions;
 ---
 
 <!doctype html>
-<html data-wf-page={pageId} data-wf-site={siteId} lang={config.site.language}>
+<html data-page-id={pageId} lang={config.site.language}>
   <head>
     <meta charset="utf-8" />
     <SeoMeta title={title} rawTitle={rawTitle} description={description} image={image} type={type} noindex={noindex} />

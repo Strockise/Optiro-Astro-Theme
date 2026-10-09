@@ -7,6 +7,8 @@ export default defineConfig({
   site: process.env.SITE_URL || 'https://example.com',
   // Keep the whitespace between tags exactly as in the original markup – it affects inline layout.
   compressHTML: false,
+  // Emit bundled CSS as files in /_astro/ instead of inlining it.
+  build: { inlineStylesheets: 'never' },
   // The Strapi app lives in ./strapi – keep the dev server from watching it.
   vite: { server: { watch: { ignored: ['**/strapi/**'] } } },
   env: {

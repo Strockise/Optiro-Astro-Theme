@@ -1,0 +1,8 @@
+/*
+ * Global stylesheet processed by Astro and served from /_astro/.
+ * The theme's styles live in public/css/optiro.css; add your own global rules here.
+ * The rule below matches no element, so this file has no visual effect.
+ */
+[data-astro-build] {
+  color: inherit;
+}
