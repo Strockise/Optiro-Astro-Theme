@@ -2,6 +2,8 @@
 
 Optiro is a premium theme for AI agent, chatbot and SaaS products, built with [Astro](https://astro.build) 7. Blog posts are managed in [Strapi](https://strapi.io) 5 and fetched at build time. Everything else ships as static HTML with no framework runtime.
 
+**Live demo:** https://optiro-astro-theme.vercel.app
+
 **Pages:** Home, Features, Pricing, Contact, Blog, blog post details (`/blog/[slug]`), Style Guide and 404.
 
 ## Quick start
@@ -9,6 +11,8 @@ Optiro is a premium theme for AI agent, chatbot and SaaS products, built with [A
 You need Node.js 22.12 or newer.
 
 ```sh
+git clone https://github.com/Strockise/Optiro-Astro-Theme.git
+cd Optiro-Astro-Theme
 npm install
 npm run dev            # http://localhost:4321
 ```
